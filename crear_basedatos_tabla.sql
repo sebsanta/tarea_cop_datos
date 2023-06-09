@@ -3,8 +3,8 @@
 --CON LA IMPLEMENTACIÓN DE JPA QUE ES LA CAPA DE PERSISTENCIA 
 --NO ES NECESARIO CREAR LAS TABLAS, SI LA BASE DE DATOS.
 
-create schema `db_tarea_springboot` default character set utf8 collate utf8_spanish_ci;
-CREATE TABLE `db_tarea_springboot`.`tarea` (
+create schema `db_tarea_spring` default character set utf8 collate utf8_spanish_ci;
+CREATE TABLE `db_tarea_spring`.`tareas` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `descripcion` VARCHAR(45) NOT NULL,
   `create_at` DATETIME NOT NULL,
